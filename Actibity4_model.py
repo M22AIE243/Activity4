@@ -21,7 +21,7 @@ model.fit(X_train, y_train)
 # Make predictions
 
 
-y_pred = model.predict(X_test+0.8)
+y_pred = model.predict(X_test)
 
 
 # Calculate mean squared error
